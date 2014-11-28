@@ -15,10 +15,9 @@ any command.
 As a [nwitch][] plugin (using `config.toml`):
 
 ``` toml
-[plugins]
-  [nwitch-custom-commands]
-    foo = "bar"
-    baz = "foobar"
+[plugins.nwitch-custom-commands]
+foo = "bar"
+baz = "foobar"
 ```
 
 Or through [nwitch][]'s API:
