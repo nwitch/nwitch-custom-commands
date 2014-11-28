@@ -1,0 +1,32 @@
+{
+  "name": "nwitch-custom-commands",
+  "version": "0.0.0",
+  "description": "nwitch plugin for defining custom commands",
+  "keywords": [
+    "nwitch",
+    "nwitch-plugin"
+  ],
+  "repository": "nwitch/nwitch-custom-commands",
+  "license": "MIT",
+  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE.txt"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/index.js"
+  },
+  "dependencies": {
+    "behest": "^1.0.0"
+  },
+  "devDependencies": {
+    "lodash.isfunction": "^2.4.1",
+    "readable-stream": "~1.0.33",
+    "slate-irc": "^0.7.3",
+    "tape": "^3.0.3"
+  }
+}
